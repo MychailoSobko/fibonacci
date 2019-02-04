@@ -12,9 +12,9 @@ function checkNumber() {
     if (a === 2) {
         return 'Your number is ' + 1;
     }
-   // if (a < 1) {
-     //   return 'This is not a correct index'
-    //}
+    if (a < 1) {
+        return 'This is not a correct index';
+    }
     let i = 3;
     while (i <= a) {
         fibNumbers.push(fibNumbers[i - 3] + fibNumbers[i - 2]);
